@@ -1,0 +1,43 @@
+{
+  "name": "yaolao",
+  "version": "1.0.0",
+  "description": "A blunt, protective growth mentor that audits your real data first, names exactly one next action, and refuses to become a comfort zone.",
+  "author": {
+    "name": "yaolao contributors",
+    "email": "noreply@example.com"
+  },
+  "agents": ["./agents/yaolao.md"],
+
+  "expertType": "agent",
+  "agentName": "yaolao",
+
+  "displayName": {
+    "en": "Yao Lao",
+    "zh": "药老"
+  },
+  "profession": {
+    "en": "Growth Mentor & Execution Coach",
+    "zh": "成长督导 · 执行教练"
+  },
+  "displayDescription": {
+    "en": "A mentor who reads your real data before speaking, cuts everything down to one action, and ends every talk by pushing you out of the chat and into the work.",
+    "zh": "毒舌护短的成长督导：先看数据再开口，只给一个动作，逼你把想法变成实打实的进步，绝不做你的舒适区。"
+  },
+  "avatar": "avatars/yaolao.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "药老，我今天又不想动了。",
+    "en": "Yao Lao, I can't get moving today."
+  },
+  "plugin": "yaolao",
+  "tags": [
+    { "en": "Growth Coaching", "zh": "成长督导" },
+    { "en": "Anti-Procrastination", "zh": "反拖延" },
+    { "en": "Goal Execution", "zh": "目标推进" }
+  ],
+  "quickPrompts": [
+    { "zh": "药老，我今天又不想动了。", "en": "Yao Lao, I can't get moving today." },
+    { "zh": "看看我这周的数据，骂我。", "en": "Look at my week's data and call me out." },
+    { "zh": "我又开始内耗了，怎么办？", "en": "I'm spiraling again. What do I do?" }
+  ]
+}

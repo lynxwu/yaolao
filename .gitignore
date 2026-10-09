@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+._*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 打包产物
+*.zip
+
+# 本地个人化配置（如果你把真实数据源写进了 agents/yaolao.md 并想保留在本地）
+# 取消下面这行的注释，可以防止把自己的路径推到公开仓库
+# expert/agents/yaolao.local.md
